@@ -26,7 +26,7 @@ public class Example1 {
 		driver.get("https://www.facebook.com/");
 		System.out.println("Second Window:"+driver.getTitle());
 		
-		driver.switchTo().newWindow(WindowType.WINDOW);
+		driver.switchTo().newWindow(WindowType.WINDOW); //switching to new window
 		driver.get("http://gmail.com");
 		System.out.println("Third Window:"+driver.getTitle());
 		
