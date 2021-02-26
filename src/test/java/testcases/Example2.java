@@ -11,6 +11,7 @@ public class Example2 {
 
 	public static void main(String[] args) 
 	{
+		//*Realtive locator example from selenium alpha*//
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://way2automation.com/way2auto_jquery/index.php");
