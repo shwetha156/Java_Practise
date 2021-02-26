@@ -22,7 +22,7 @@ public class Example1 {
 		driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		System.out.println("First Window:"+driver.getTitle());
 		
-		driver.switchTo().newWindow(WindowType.TAB);
+		driver.switchTo().newWindow(WindowType.TAB);  //switching to new tab
 		driver.get("https://www.facebook.com/");
 		System.out.println("Second Window:"+driver.getTitle());
 		
